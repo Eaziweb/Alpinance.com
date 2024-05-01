@@ -532,7 +532,7 @@ grid-gap: 2em
     }
 
     .service-title{
-        font-size: 5rem;
+        font-size:5rem;
        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         width: 70%;
     }
@@ -1032,6 +1032,11 @@ height: 30px;
     width: 100%;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.service-title{
+    font-size: 3.5rem;
+    width: 100%;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .service-head{
     display: grid;
     grid-template-columns: 1fr;
@@ -1041,6 +1046,7 @@ height: 30px;
 }
 .service-about{
     margin-top: 2.5em;
+    width: 100%;
 }
 
 .slider__btn--left{
@@ -1102,6 +1108,10 @@ height: 30px;
 .empower-title{
     font-size: 3.2rem;
 }
+.service-title{
+    font-size: 3.2rem;
+
+}
 .test-content{
     font-size:2.8rem;
 }
@@ -1120,7 +1130,8 @@ height: 30px;
     grid-column: 1/4;
     grid-row: 1/2;
     width: 80%;
-    height: 60vh;
+    /* height: 60vh; */
+    height: 438px;
  } 
 .vertical-line{
 grid-row: 2/span 3;
@@ -1195,7 +1206,8 @@ footer{
     }
   .center-img{
     margin: 0 auto;
-    height: 50vh;
+    /* height: 50vh; */
+    height: 365px;
     width: 80%;
     display: flex;
     justify-content: center;
@@ -1272,6 +1284,9 @@ padding: 3em 0;
         .empower-title{
             font-size: 3rem;
         }
+        .service-title{
+            font-size: 3rem;
+        }
         .test{
             height: 25rem;
         }
@@ -1304,6 +1319,9 @@ padding: 3em 0;
 }
 .empower-title{
     font-size: 2.8rem;
+}
+.service-title{
+    /* font-size: 2.8rem; */
 }
 .test{
     height:23rem ;
@@ -1341,6 +1359,10 @@ padding: 3em 0;
     }
     .empower-title{
         font-size: 2.5rem;
+    }
+    .service-title{
+        font-size: 2.8rem;
+
     }
     .test-info{
         padding-left: 1.1em;
@@ -1390,6 +1412,9 @@ padding: 3em 0;
     .empower-title{
         font-size: 2.3rem;
     }
+    .service-title{
+        /* font-size: 2.3rem; */
+    }
     .section{
         padding: 2.5em;
     }
@@ -1402,7 +1427,7 @@ padding: 3em 0;
 
  }
     .service-title{
-        font-size: 4.5rem;
+        font-size: 2.5rem;
     }
     .sign-in
 {
@@ -1479,7 +1504,8 @@ padding: 3em 0;
         font-size: 1.7rem;
     }
     .service-title{
-        font-size: 4rem;
+        font-size: 2.1rem;
+        
     }
     .test-content{
         font-size: 1.8rem;
@@ -1529,9 +1555,7 @@ padding: 3em 0;
     }
 }
 @media(max-width:480px){
-    .service-title{
-        font-size: 3.5rem;
-    }
+
 
     .header-title{
         padding-left:2.3em ;
@@ -1591,9 +1615,7 @@ padding: 3em 0;
       }
     
   
-      .service-title{
-        font-size: 3rem;
-    }
+   
     .test-content{
         font-size: 1.2rem;
     }
@@ -1641,6 +1663,10 @@ padding: 3em 0;
     }
     .empower-title{
         font-size: 1.4rem;
+    }
+    .service-title{
+        /* font-size: 1.4rem; */
+
     }
     .test-content{
         font-size: 1rem;
