@@ -1,0 +1,167 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-family-one: Lucida;
+    --color-balck-light:  rgba(0, 0, 0, 0.705);
+}
+
+.back{
+    position: absolute;
+    top: 1.5rem;
+    left: 5rem;
+    border: none;
+   cursor: pointer;
+   width:2.5rem ;
+   height: 100%;
+   object-fit: contain;
+   font-weight: lighter;
+}
+.signin-page{
+    padding: 2.5em 3em;
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.signin-title{
+    font-weight: 530;
+    font-family: var(--font-family-one);
+ 
+}
+.signin-about{  
+    margin-top: 1em;
+    width: 85%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--color-balck-light);
+
+}
+.form{
+    margin-top: 2em;
+ 
+}
+input{
+    border-radius: 9px;
+    margin-top: 1em;
+    margin-bottom: 1.3em;
+
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    padding: 2em 0em;
+    padding-left: 4em;
+    border:1px solid rgba(0, 0, 0, 0.171);
+    outline: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: .9rem;
+}
+input:focus{
+    border:1px solid orangered;
+}
+label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--color-balck-light);
+    font-size: 1rem;
+}
+.name{
+    position: relative;
+}
+.email{
+    position: relative;
+}
+.pass{
+    position: relative;
+}
+.c-pass{
+    position: relative;
+}
+img{
+    height: 1.3rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 1em;
+    padding-right: .5em;
+    border-right:1px solid rgba(0, 0, 0, 0.171);
+
+}
+button{
+    width: 100%;
+    text-align: center;
+    /* height: 3rem; */
+    padding: 1.2em 0;
+   background-color: orangered;
+   color: white;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 1rem;
+   outline: none;
+   border: none;
+   border-radius: 9px;
+   margin-top: 1em;
+   cursor: pointer;
+}
+button:hover{
+    background-color: rgba(255, 68, 0, 0.61);
+}
+.log{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--color-balck-light);
+text-align: center;
+margin-top: 1em;
+font-size: 1rem;
+}
+.login{
+    color: orangered;
+    font-weight: bold;
+   cursor: pointer;
+}
+@media(max-width:800px){
+
+    .signin-about{
+        width: 100%;
+        font-size: 90%;
+    }
+    .signin-page{
+        padding: 2em;
+        width: 90%;
+    }
+ input{
+    font-size: .7rem;
+ }
+img{
+    height: 1.1rem;
+ }
+ button{
+    padding: 1em 0;
+font-size: .9rem;
+ }
+ .log{
+   font-size: 90%;
+ }
+ .back{
+    left: 1em;
+    width:2rem ;
+ }
+}
+@media(max-width:600px){
+    .signin-about{
+        width: 100%;
+        font-size: 75%;
+    }
+    .signin-page{
+        padding: 2.5em 1em;
+    }
+    label{
+        font-size: .8rem;
+    }
+    .log{
+        font-size: 80%;
+      }
+      .back{
+        left: .5em;
+    width:1.5rem ;
+
+     }
+}
